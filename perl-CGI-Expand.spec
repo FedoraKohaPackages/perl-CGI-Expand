@@ -1,5 +1,5 @@
 Name:           perl-CGI-Expand
-Version:        2.6
+Version:        2.7
 Release:        1%{?dist}
 Summary:        Convert flat hash to nested data using TT2's dot convention
 License:        GPL+ or Artistic
@@ -49,6 +49,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Thu Jun 02 2016 Nicholas van Oudtshoorn <vanoudt@gmail.com> 2.7-1
+- New update for COPR 
+
 * Thu Jun 02 2016 Nicholas van Oudtshoorn <vanoudt@gmail.com> 2.6-1
 - new package built with tito
 
